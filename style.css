@@ -1,0 +1,132 @@
+.body{
+  margin: 0;
+}
+
+#loginButton{
+  width:120px;
+  height: 40px;
+  background-color: rgba(253, 255, 234, 0.4);
+  color: rgb(62, 65, 65);
+  border: none; /*테두리 없애기*/
+  font-size: 30px;
+  font-weight: bold; /*글씨 두께*/
+  border-radius: 20px; /*동그란 모양*/
+  /*버튼 가운데로 보내기*/
+  top:30%;
+  left:71%;
+  transition: 0.3s; /*반응속도*/
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+/*버튼에 마우스를 올렸을 때 스타일을 ~~하게 변해라*/
+#loginButton:hover{
+  background-color: rgba(253, 255, 234, 0.897);
+  cursor:pointer; /*버튼 위에 올라가면 커서 모양 바꾸기*/
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+#clock{
+  position: absolute;
+  top:20%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+#nameText{
+  top:30%;
+  left:60%;
+  font-size: 40px;
+  border: none; /*테두리 없애기*/
+  border-radius: 20px;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+#greeting{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+#todo-list{
+  position: absolute;
+  top:40%;
+  left:74%;
+  font-size: 20px;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+#quote{
+  position: absolute;
+  top:37%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+#weather{
+  position: absolute;
+  top:1%;
+  left:1%;
+  font-size: 30px;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+#todo{
+  position: absolute;
+  top: 35%;
+  left: 78%;
+  font-size: 25px;
+  width:180px;
+  border: none;
+  border-radius: 20px; /*동그란 모양*/
+  background-color: rgb(255, 209, 255);
+  color: rgb(66, 66, 60);
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+#todayDate{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'GangwonEdu_OTFBoldA';
+  font-size: 25px;
+}
+
+#do {
+  position: absolute;
+  top: 18%;
+  left: 79%;
+  font-size: 45px;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.shape1 {
+  border: white hidden;
+  border-radius: 30px 30px;
+  width: 270px;
+  height: 500px;
+  top: 20%;
+  left: 73%;
+  position: absolute;
+  background-color: white;
+  margin: 0px 25px;
+  opacity: 40%;
+}
+
+#button{
+  border: none;
+}
